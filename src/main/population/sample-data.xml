@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+- sample-data.xml
+-
+- Copyright (c) 2019 Rafael Corchuelo.
+-
+- In keeping with the traditional purpose of furthering education and research, it is
+- the policy of the copyright owner to permit non-commercial use and redistribution of
+- this software. It has been tested carefully, but it is not guaranteed for any particular
+- purposes.  The copyright owner does not offer any warranties or representations, nor do
+- they accept any liabilities with respect to them.
+-->
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<import resource="conversion-service.xml" />
+	
+	<bean id="announcement01" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Ejemplo de announcement"/>
+		<property name="moment" value="2019/06/10 11:00"/>
+		<property name="moreInfo"><null/></property>
+		<property name="text" value="Descripción del announcement ejemplo"/>
+	
+	
+	</bean>
+	
+	<bean id="announcement02" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Ejemplo de announcement número 2"/>
+		<property name="moment" value="2019/06/10 11:30"/>
+		<property name="moreInfo" value="http://www.example.com"/>
+		<property name="text" value="Descripción del announcement ejemplo número 2"/>
+	
+	
+	</bean>
+	
+	<bean id="announcement03" class="acme.entities.announcements.Announcement">
+		<property name="title" value="Ejemplo de announcement número 3"/>
+		<property name="moment" value="2019/06/10 12:00"/>
+		<property name="moreInfo"><null/></property>
+		<property name="text" value="Descripción del announcement ejemplo número 3"/>
+	
+	
+	</bean>
+
+</beans>

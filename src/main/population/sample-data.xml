@@ -49,6 +49,7 @@
 		<property name="moment" value="2019/06/10 12:00"/>
 		<property name="deadline" value="2020/07/11 10:30"/>
 		<property name="text" value="Oferta de ejemplo"/>
+		<property name="money" value="900.0€"/>
 		<property name="ticker" value="Oabcd-12345"/>
 	
 	

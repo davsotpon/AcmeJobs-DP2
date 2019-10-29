@@ -10,6 +10,7 @@ import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
+import javax.validation.constraints.Pattern;
 
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
@@ -44,7 +45,7 @@ public class Offer extends DomainEntity {
 	private Money				money;
 
 	@NotBlank
-	//@Pattern(regexp = "O/\\[a-zA-Z]{4}/\\-/\\d{5}")
+	@Pattern(regexp = "^O[a-zA-Z]{4}-[0-9]{5}")
 	private String				ticker;
 
 }

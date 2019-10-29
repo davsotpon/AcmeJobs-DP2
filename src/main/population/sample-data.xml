@@ -43,5 +43,15 @@
 	
 	
 	</bean>
+	
+	<bean id="offer01" class="acme.entities.offers.Offer">
+		<property name="title" value="Oferta 01"/>
+		<property name="moment" value="2019/06/10 12:00"/>
+		<property name="deadline" value="2020/07/11 10:30"/>
+		<property name="text" value="Oferta de ejemplo"/>
+		<property name="ticker" value="Oabcd-12345"/>
+	
+	
+	</bean>
 
 </beans>

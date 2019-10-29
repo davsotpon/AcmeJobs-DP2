@@ -6,5 +6,7 @@ authenticated.offer.form.label.money= Money:
 authenticated.offer.form.label.ticker= Ticker:
 authenticated.offer.form.button.return= Return
 
+authenticated.offer.list.label.deadline=Deadline
 authenticated.offer.list.label.moment= Moment
 authenticated.offer.list.label.title= Title
+authenticated.offer.list.label.money= Money

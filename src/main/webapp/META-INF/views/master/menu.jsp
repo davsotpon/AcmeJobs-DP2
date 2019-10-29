@@ -49,6 +49,7 @@
 		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
 			<acme:menu-suboption code="master.menu.authenticated.announcement-list" action="/authenticated/announcement/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.offer-list" action="/authenticated/offer/list"/>
+			
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

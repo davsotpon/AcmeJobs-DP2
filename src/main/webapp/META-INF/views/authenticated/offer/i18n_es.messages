@@ -6,5 +6,7 @@ authenticated.offer.form.label.money= Dinero:
 authenticated.offer.form.label.ticker= Identificador:
 authenticated.offer.form.button.return= Volver
 
+authenticated.offer.list.label.deadline=Fecha límite
 authenticated.offer.list.label.moment= Momento
 authenticated.offer.list.label.title= Título
+authenticated.offer.list.label.money= Dinero

@@ -59,6 +59,8 @@ master.menu.anonymous.soto-list = List SotoBulletin
 master.menu.authenticated= Authenticated
 master.menu.authenticated.announcement-list= List announcements
 master.menu.authenticated.offer-list= List offers
+master.menu.authenticated.request2-list= List requests
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator

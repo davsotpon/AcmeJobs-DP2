@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
@@ -90,8 +91,25 @@
 	
 	</bean>
 	
-
-	<bean id="offer01" class="acme.entities.offers.Offer">
+	<bean id="request01" class="acme.entities.requests2.Request2">
+		<property name="title" value="Ejemplo de request número 1"/>
+		<property name="iden" value="RAAAA-00000"/>
+		<property name="moment" value="2019/06/10 12:00"/>
+		<property name="deadline" value="2020/06/10 12:00"/>
+		<property name="text" value="Descripción del request ejemplo número 1"/>
+		<property name="reward" value="900.0 €"/>
+	</bean>
+	
+	<bean id="request02" class="acme.entities.requests2.Request2">
+		<property name="title" value="Ejemplo de request número 2"/>
+		<property name="iden" value="RAAAA-00001"/>
+		<property name="moment" value="2016/06/15 18:00"/>
+		<property name="deadline" value="2019/12/10 08:00"/>
+		<property name="text" value="Descripción del request ejemplo número 2"/>
+		<property name="reward" value="13500.0 €"/>
+	</bean>
+	
+  <bean id="offer01" class="acme.entities.offers.Offer">
 		<property name="title" value="Oferta 01"/>
 		<property name="moment" value="2019/06/10 12:00"/>
 		<property name="deadline" value="2020/07/11 10:30"/>
@@ -102,16 +120,6 @@
 	
 	</bean>
 
-	<bean id="request01" class="acme.entities.requests2.Request2">
-		<property name="title" value="Ejemplo de request número 1"/>
-		<property name="iden" value="RAAAA-00000"/>
-		<property name="moment" value="2019/06/10 12:00"/>
-		<property name="deadline" value="2020/06/10 12:00"/>
-		<property name="text" value="Descripción del request ejemplo número 1"/>
-		<property name="reward" value="900.0 €"/>
-	</bean>
 	
-	
-
 
 </beans>

@@ -10,6 +10,7 @@ import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
+import javax.validation.constraints.Pattern;
 
 import acme.framework.datatypes.Money;
 import acme.framework.entities.DomainEntity;
@@ -30,6 +31,7 @@ public class Request2 extends DomainEntity {
 	private String				title;
 
 	@NotBlank
+	@Pattern(regexp = "^R[a-zA-Z] {4}-[0-9] {5}")
 	private String				iden;
 
 	@Temporal(TemporalType.TIMESTAMP)

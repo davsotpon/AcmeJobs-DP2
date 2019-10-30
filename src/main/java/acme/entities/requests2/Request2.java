@@ -31,7 +31,7 @@ public class Request2 extends DomainEntity {
 	private String				title;
 
 	@NotBlank
-	@Pattern(regexp = "^R[a-zA-Z] {4}-[0-9] {5}")
+	@Pattern(regexp = "^R[a-zA-Z]{4}-[0-9]{5}")
 	private String				iden;
 
 	@Temporal(TemporalType.TIMESTAMP)

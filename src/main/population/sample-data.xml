@@ -99,6 +99,15 @@
 		<property name="reward" value="900.0 €"/>
 	</bean>
 	
+	<bean id="request02" class="acme.entities.requests2.Request2">
+		<property name="title" value="Ejemplo de request número 2"/>
+		<property name="iden" value="RAAAA-00001"/>
+		<property name="moment" value="2016/06/15 18:00"/>
+		<property name="deadline" value="2019/12/10 08:00"/>
+		<property name="text" value="Descripción del request ejemplo número 2"/>
+		<property name="reward" value="13500.0 €"/>
+	</bean>
+	
 	
 
 </beans>

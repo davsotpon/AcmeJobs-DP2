@@ -1,4 +1,3 @@
-
 ______         ______ 
 |  _  \  ___   | ___ \
 | | | | ( _ )  | |_/ /
@@ -12,4 +11,4 @@ ______         ______
 /_/  |_|\___/  /_/ /_/ /_/ \___/        \____/   \____/ /_.___/ /____/   
 ${Ansi.DEFAULT}
 Powered by Spring Boot ${spring-boot.version}
-Powered by Acme-Jobs
+Powered by Acme Jobs, Inc.

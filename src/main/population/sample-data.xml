@@ -119,6 +119,17 @@
 	
 	</bean>
 
-	
+	<bean id="challenge01" class="acme.entities.challenge.Challenge">
+		<property name="title" value="Ejemplo de challenge número 1"/>
+		<property name="deadline" value="2020/11/10 12:00"/>
+		<property name="description" value="Descripción primer challenge"/>
+		<property name="goalGold" value="goal gold"/>
+		<property name="goalSilver" value="goal silver"/>
+		<property name="goalBronze" value="goal bronze"/>
+		<property name="rewardGold" value="reward gold"/>
+		<property name="rewardSilver" value="reward silver"/>
+		<property name="rewardBronze" value="reward bronze"/>
+	</bean>
 
 </beans>
+

@@ -431,4 +431,25 @@ SotoBulletin
 + text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>760</y>
+      <w>310</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Challenge
+--
++ title: String {NotBlank}
++ deadline: Date {Temporal(TIMESTAMP),Future	}
++ description: String {NotBlank}
++ goalGold: String {NotBlank}
++ goalSilver: String {NotBlank}
++ goalBronze: String {NotBlank}
++ rewardGold: String {NotBlank}
++ rewardSilver: String {NotBlank}
++ rewardBronze: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

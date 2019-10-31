@@ -55,6 +55,8 @@ master.menu.anonymous.bulletins = Boletines
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
+master.menu.authenticated.announcement-list = Listar anuncios
+master.menu.authenticated.challenge-list = Listar desafíos
 
 # master.menu.administrator ###################################################
 

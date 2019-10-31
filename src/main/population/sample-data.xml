@@ -17,6 +17,52 @@
 
 	<import resource="conversion-service.xml" />
 	
+	<bean id="shout01" class="acme.entities.shouts.Shout">
+		<property name="author" value="Bob Dylan"/>	
+		<property name="text" value="Tengo un premio nobel de literatura"/>
+		<property name="moment" value="2019/08/18 15:54"/>
+	</bean>
+	
+	<bean id="FernandezBulletin01" class="acme.entities.bulletins.FernandezBulletin">
+		<property name="author" value="Antonio"/>	
+		<property name="description" value="Tengo un premio nobel de literatura"/>
+		<property name="moment" value="2019/08/18 15:54"/>
+		<property name = "language" value ="Ingles"/>
+	</bean>
+	<bean id="GuerreroBulletin01" class="acme.entities.bulletins.GuerreroBulletin">
+		<property name="author" value="Martin"/>	
+		<property name="description" value="Tengo un premio nobel de música"/>
+		<property name="moment" value="2019/08/18 15:54"/>
+		<property name = "instrument" value ="Piano"/>
+	</bean>
+	<bean id="GarciaBulletin01" class="acme.entities.bulletins.GarciaBulletin">
+		<property name="author" value="Abraham"/>	
+		<property name="description" value="Tengo un US Open"/>
+		<property name="moment" value="2019/08/18 15:54"/>
+		<property name = "sport" value ="Tennis"/>
+	</bean>
+  	<bean id="DelgadoBulletin01" class="acme.entities.bulletins.DelgadoBulletin">
+		<property name="author" value="Jose"/>	
+		<property name="numWallet" value="3241fg"/>
+		<property name="moment" value="2019/08/18 15:54"/>
+		<property name = "initiative" value ="Invertir"/>
+	</bean>
+	
+	<bean id="HuBulletin01" class="acme.entities.bulletins.HuBulletin">
+		<property name="author" value="Chao"/>	
+		<property name="description" value="Tengo un premio nobel de matemáticas"/>
+		<property name="moment" value="2019/08/18 15:54"/>
+		<property name = "grade" value ="Matemáticas"/>
+	</bean>
+	
+
+	<bean id="SotoBulletin01" class="acme.entities.bulletins.SotoBulletin">
+		<property name="author" value="David"/>	
+		<property name="description" value="Tengo un premio nobel de música"/>
+		<property name="moment" value="2019/08/18 15:54"/>
+		<property name = "song" value ="Bohemian Rhapsody"/>
+  </bean>
+	
 	<bean id="announcement01" class="acme.entities.announcements.Announcement">
 		<property name="title" value="Ejemplo de announcement"/>
 		<property name="moment" value="2019/06/10 11:00"/>
@@ -44,6 +90,35 @@
 	
 	</bean>
 	
+	<bean id="request01" class="acme.entities.requests2.Request2">
+		<property name="title" value="Ejemplo de request número 1"/>
+		<property name="iden" value="RAAAA-00000"/>
+		<property name="moment" value="2019/06/10 12:00"/>
+		<property name="deadline" value="2020/06/10 12:00"/>
+		<property name="text" value="Descripción del request ejemplo número 1"/>
+		<property name="reward" value="900.0 €"/>
+	</bean>
+	
+	<bean id="request02" class="acme.entities.requests2.Request2">
+		<property name="title" value="Ejemplo de request número 2"/>
+		<property name="iden" value="RAAAA-00001"/>
+		<property name="moment" value="2016/06/15 18:00"/>
+		<property name="deadline" value="2019/12/10 08:00"/>
+		<property name="text" value="Descripción del request ejemplo número 2"/>
+		<property name="reward" value="13500.0 €"/>
+	</bean>
+	
+  <bean id="offer01" class="acme.entities.offers.Offer">
+		<property name="title" value="Oferta 01"/>
+		<property name="moment" value="2019/06/10 12:00"/>
+		<property name="deadline" value="2020/07/11 10:30"/>
+		<property name="text" value="Oferta de ejemplo"/>
+		<property name="money" value="900.0€"/>
+		<property name="ticker" value="Oabcd-12345"/>
+	
+	
+	</bean>
+
 	<bean id="challenge01" class="acme.entities.challenge.Challenge">
 		<property name="title" value="Ejemplo de challenge número 1"/>
 		<property name="deadline" value="2020/11/10 12:00"/>
@@ -57,3 +132,4 @@
 	</bean>
 
 </beans>
+

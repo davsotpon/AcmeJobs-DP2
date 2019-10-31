@@ -41,7 +41,11 @@
 
     drop table if exists `hu_bulletin`;
 
+    drop table if exists `offer`;
+
     drop table if exists `provider`;
+
+    drop table if exists `request2`;
 
     drop table if exists `shout`;
 

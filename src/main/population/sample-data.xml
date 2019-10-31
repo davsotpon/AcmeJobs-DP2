@@ -148,6 +148,22 @@
 		<property name="rewardSilver" value="reward silver"/>
 		<property name="rewardBronze" value="reward bronze"/>
 	</bean>
+	
+	
+	
+	
+	<bean id="records01" class="acme.entities.records.Records">
+		<property name="company" value="Chao S.L."/>
+		<property name="sector" value="Inversiones"/>
+		<property name="CEO" value="Horacio Hu"/>
+		<property name="activities" value="Preparación de Brokers"/>
+		<property name="web" value="http://www.jola.com"/>
+	    <property name="phone" value="6817217"/>
+	    <property name="email" value="chaohuchu@gmail.com"/>
+	    <property name="incorporated" value="true"/>
+	    <property name="stars" value="4"/>
+	
+	</bean>
 
 </beans>
 

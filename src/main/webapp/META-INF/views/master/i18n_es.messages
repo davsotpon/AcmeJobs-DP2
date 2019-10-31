@@ -57,6 +57,7 @@ master.menu.anonymous.investorRecords-list= Listar inversiones
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
 master.menu.authenticated.announcement-list= Listar announcements
+master.menu.authenticated.investorRecords-list= Listar inversiones
 
 # master.menu.administrator ###################################################
 

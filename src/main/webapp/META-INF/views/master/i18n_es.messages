@@ -57,7 +57,11 @@ master.menu.anonymous.investorRecords-list= Listar inversiones
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
 master.menu.authenticated.announcement-list= Listar announcements
+master.menu.authenticated.announcement-list = Listar anuncios
+master.menu.authenticated.request2-list= Lista de solicitudes
+master.menu.authenticated.offer-list= Listar ofertas
 master.menu.authenticated.investorRecords-list= Listar inversiones
+master.menu.authenticated.challenge-list = Listar desafíos
 
 # master.menu.administrator ###################################################
 

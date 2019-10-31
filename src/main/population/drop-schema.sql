@@ -27,6 +27,8 @@
 
     drop table if exists `authenticated`;
 
+    drop table if exists `challenge`;
+
     drop table if exists `consumer`;
 
     drop table if exists `delgado_bulletin`;
@@ -41,7 +43,11 @@
 
     drop table if exists `investor_records`;
 
+    drop table if exists `offer`;
+
     drop table if exists `provider`;
+
+    drop table if exists `request2`;
 
     drop table if exists `shout`;
 

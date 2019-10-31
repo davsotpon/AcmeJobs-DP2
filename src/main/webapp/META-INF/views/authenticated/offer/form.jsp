@@ -10,7 +10,8 @@
 	<acme:form-moment code="authenticated.offer.form.label.moment" path="moment"/>
 	<acme:form-moment code="authenticated.offer.form.label.deadline" path="deadline"/>
 	<acme:form-textarea code="authenticated.offer.form.label.text" path="text"/>
-	<acme:form-money code="authenticated.offer.form.label.money" path="money"/>
+	<acme:form-money code="authenticated.offer.form.label.minMoney" path="minMoney"/>
+	<acme:form-money code="authenticated.offer.form.label.maxMoney" path="maxMoney"/>
 	<acme:form-textarea code="authenticated.offer.form.label.ticker" path="ticker"/>
 	<acme:form-return code="authenticated.offer.form.button.return"/> 
 	

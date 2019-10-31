@@ -68,8 +68,6 @@
 		<property name="moment" value="2019/06/10 11:00"/>
 		<property name="moreInfo"><null/></property>
 		<property name="text" value="Descripción del announcement ejemplo"/>
-	
-	
 	</bean>
 	
 	<bean id="announcement02" class="acme.entities.announcements.Announcement">
@@ -77,8 +75,6 @@
 		<property name="moment" value="2019/06/10 11:30"/>
 		<property name="moreInfo" value="http://www.example.com"/>
 		<property name="text" value="Descripción del announcement ejemplo número 2"/>
-	
-	
 	</bean>
 	
 	<bean id="announcement03" class="acme.entities.announcements.Announcement">
@@ -86,10 +82,21 @@
 		<property name="moment" value="2019/06/10 12:00"/>
 		<property name="moreInfo"><null/></property>
 		<property name="text" value="Descripción del announcement ejemplo número 3"/>
-	
-	
 	</bean>
 	
+
+	<bean id="offer01" class="acme.entities.offers.Offer">
+		<property name="title" value="Oferta 01"/>
+		<property name="moment" value="2019/06/10 12:00"/>
+		<property name="deadline" value="2020/07/11 10:30"/>
+		<property name="text" value="Oferta de ejemplo"/>
+		<property name="minMoney" value="EUR 700.0"/>
+		<property name="maxMoney" value="EUR 2000.0"/>
+		<property name="ticker" value="Oabcd-12345"/>
+	</bean>
+
+
+
 	<bean id="request01" class="acme.entities.requests2.Request2">
 		<property name="title" value="Ejemplo de request número 1"/>
 		<property name="iden" value="RAAAA-00000"/>
@@ -106,17 +113,6 @@
 		<property name="deadline" value="2019/12/10 08:00"/>
 		<property name="text" value="Descripción del request ejemplo número 2"/>
 		<property name="reward" value="13500.0 €"/>
-	</bean>
-	
-  <bean id="offer01" class="acme.entities.offers.Offer">
-		<property name="title" value="Oferta 01"/>
-		<property name="moment" value="2019/06/10 12:00"/>
-		<property name="deadline" value="2020/07/11 10:30"/>
-		<property name="text" value="Oferta de ejemplo"/>
-		<property name="money" value="900.0€"/>
-		<property name="ticker" value="Oabcd-12345"/>
-	
-	
 	</bean>
 
 	<bean id="challenge01" class="acme.entities.challenge.Challenge">

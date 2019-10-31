@@ -108,9 +108,11 @@
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),
+        `max_money_amount` double precision,
+        `max_money_currency` varchar(255),
+        `min_money_amount` double precision,
+        `min_money_currency` varchar(255),
         `moment` datetime(6),
-        `money_amount` double precision,
-        `money_currency` varchar(255),
         `text` varchar(255),
         `ticker` varchar(255),
         `title` varchar(255),
@@ -175,6 +177,9 @@
     ) engine=InnoDB;
 
     insert into `hibernate_sequence` values ( 1 );
+
+    alter table `offer` 
+       add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);

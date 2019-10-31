@@ -115,6 +115,28 @@
 		<property name="reward" value="13500.0 €"/>
 	</bean>
 
+  <bean id="investorRecords01" class="acme.entities.investorRecords.InvestorRecords">
+		<property name="name" value="Ejemplo de investor records"/>
+		<property name="sector" value="sector de tecnología"/>
+		<property name="investingStatements" value="EUR 100.00"/>
+		<property name="ratings"><null/></property>
+	</bean>
+	
+	<bean id="investorRecords02" class="acme.entities.investorRecords.InvestorRecords">
+		<property name="name" value="Ejemplo 2 de investor records"/>
+		<property name="sector" value="sector industrial"/>
+		<property name="investingStatements" value="EUR 200.00"/>
+		<property name="ratings" value="2.5"/>
+	</bean>
+	
+	<bean id="investorRecords03" class="acme.entities.investorRecords.InvestorRecords">
+		<property name="name" value="Ejemplo 3 de investor records"/>
+		<property name="sector" value="sector de investigación"/>
+		<property name="investingStatements" value="EUR 300.00"/>
+		<property name="ratings"><null/></property>
+	</bean>
+
+ 
 	<bean id="challenge01" class="acme.entities.challenge.Challenge">
 		<property name="title" value="Ejemplo de challenge número 1"/>
 		<property name="deadline" value="2020/11/10 12:00"/>
@@ -128,4 +150,5 @@
 	</bean>
 
 </beans>
+
 

@@ -41,6 +41,8 @@
 
     drop table if exists `hu_bulletin`;
 
+    drop table if exists `investor_records`;
+
     drop table if exists `offer`;
 
     drop table if exists `provider`;

@@ -471,6 +471,22 @@ SotoBulletin
 
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>64</x>
+      <y>584</y>
+      <w>264</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>InvestorRecords
+--
++ name: String {NotBlank}
++ sector: String {NotBlank}
++ investingStatements: Money {Valid,NotNull}
++ ratings: double {Range(0,5)}</panel_attributes>
+    <additional_attributes/>
+  </element>
  <element>
     <id>UMLClass</id>
     <coordinates>

@@ -104,6 +104,17 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `investor_records` (
+       `id` integer not null,
+        `version` integer not null,
+        `investing_statements_amount` double precision,
+        `investing_statements_currency` varchar(255),
+        `name` varchar(255),
+        `ratings` double precision,
+        `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+    
     create table `offer` (
        `id` integer not null,
         `version` integer not null,
@@ -118,6 +129,7 @@
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
+        
 
     create table `provider` (
        `id` integer not null,

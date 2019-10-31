@@ -53,7 +53,7 @@ master.menu.anonymous.hu-create = Create HuBulletin
 master.menu.anonymous.hu-list = List HuBulletin
 master.menu.anonymous.soto-create = Create SotoBulletin
 master.menu.anonymous.soto-list = List SotoBulletin
-
+master.menu.anonymous.investorRecords-list= List investor records
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Authenticated

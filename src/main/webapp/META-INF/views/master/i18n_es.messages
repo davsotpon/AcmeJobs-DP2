@@ -52,9 +52,11 @@ master.menu.anonymous.soto-list = Listar SotoBoletín
 master.menu.anonymous.hu-create = Crear HuBoletín
 master.menu.anonymous.hu-list = Listar HuBoletín
 master.menu.anonymous.bulletins = Boletines
+master.menu.anonymous.investorRecords-list= Listar inversiones
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
+master.menu.authenticated.announcement-list= Listar announcements
 
 # master.menu.administrator ###################################################
 

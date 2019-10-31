@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--
-- sample-data.xml
--
-- Copyright (c) 2019 Rafael Corchuelo.
--
-- In keeping with the traditional purpose of furthering education and research, it is
-- the policy of the copyright owner to permit non-commercial use and redistribution of
-- this software. It has been tested carefully, but it is not guaranteed for any particular
-- purposes.  The copyright owner does not offer any warranties or representations, nor do
-- they accept any liabilities with respect to them.
--->
-
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
@@ -42,6 +30,27 @@
 		<property name="text" value="Descripción del announcement ejemplo número 3"/>
 	
 	
+	</bean>
+	
+	<bean id="investorRecords01" class="acme.entities.investorRecords.InvestorRecords">
+		<property name="name" value="Ejemplo de investor records"/>
+		<property name="sector" value="sector de tecnología"/>
+		<property name="investingStatements" value="EUR 100.00"/>
+		<property name="ratings"><null/></property>
+	</bean>
+	
+	<bean id="investorRecords02" class="acme.entities.investorRecords.InvestorRecords">
+		<property name="name" value="Ejemplo 2 de investor records"/>
+		<property name="sector" value="sector industrial"/>
+		<property name="investingStatements" value="EUR 200.00"/>
+		<property name="ratings" value="2.5"/>
+	</bean>
+	
+	<bean id="investorRecords03" class="acme.entities.investorRecords.InvestorRecords">
+		<property name="name" value="Ejemplo 3 de investor records"/>
+		<property name="sector" value="sector de investigación"/>
+		<property name="investingStatements" value="EUR 300.00"/>
+		<property name="ratings"><null/></property>
 	</bean>
 
 </beans>

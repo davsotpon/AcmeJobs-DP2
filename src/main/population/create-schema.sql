@@ -132,11 +132,11 @@
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),
-        `iden` varchar(255),
         `moment` datetime(6),
         `reward_amount` double precision,
         `reward_currency` varchar(255),
         `text` varchar(255),
+        `ticker` varchar(255),
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
@@ -180,6 +180,9 @@
 
     alter table `offer` 
        add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
+
+    alter table `request2` 
+       add constraint UK_3l82ui4vh8qjy96b39cv1p5l0 unique (`ticker`);
 
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);

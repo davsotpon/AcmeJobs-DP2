@@ -415,7 +415,6 @@ SotoBulletin
 + description: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
-  
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -432,12 +431,11 @@ SotoBulletin
 + text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
-  
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>730</y>
+      <x>40</x>
+      <y>900</y>
       <w>390</w>
       <h>150</h>
     </coordinates>
@@ -455,8 +453,8 @@ SotoBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>900</y>
+      <x>40</x>
+      <y>760</y>
       <w>390</w>
       <h>130</h>
     </coordinates>
@@ -470,12 +468,11 @@ SotoBulletin
 + reward: Money {Valid,NotNull}</panel_attributes>
     <additional_attributes/>
   </element>
-  
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>64</x>
-      <y>584</y>
+      <x>80</x>
+      <y>1200</y>
       <w>264</w>
       <h>88</h>
     </coordinates>
@@ -487,12 +484,12 @@ SotoBulletin
 + ratings: double {Range(0,5)}</panel_attributes>
     <additional_attributes/>
   </element>
- <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
-      <y>760</y>
-      <w>310</w>
+      <x>50</x>
+      <y>1070</y>
+      <w>330</w>
       <h>110</h>
     </coordinates>
     <panel_attributes>Challenge
@@ -509,6 +506,3 @@ SotoBulletin
     <additional_attributes/>
   </element>
 </diagram>
-
-
-

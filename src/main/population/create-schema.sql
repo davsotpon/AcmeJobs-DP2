@@ -113,7 +113,7 @@
         `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
+
     create table `offer` (
        `id` integer not null,
         `version` integer not null,
@@ -128,7 +128,6 @@
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-        
 
     create table `provider` (
        `id` integer not null,
@@ -139,7 +138,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-   create table `request2` (
+    create table `request2` (
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),
@@ -192,6 +191,9 @@
     alter table `offer` 
        add constraint UK_iex7e8fs0fh89yxpcnm1orjkm unique (`ticker`);
 
+    alter table `request2` 
+       add constraint UK_3l82ui4vh8qjy96b39cv1p5l0 unique (`ticker`);
+
     alter table `user_account` 
        add constraint UK_castjbvpeeus0r8lbpehiu0e4 unique (`username`);
 
@@ -219,4 +221,3 @@
        add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
-

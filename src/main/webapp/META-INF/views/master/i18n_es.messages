@@ -53,6 +53,7 @@ master.menu.anonymous.hu-create = Crear HuBoletín
 master.menu.anonymous.hu-list = Listar HuBoletín
 master.menu.anonymous.bulletins = Boletines
 master.menu.anonymous.investorRecords-list= Listar inversiones
+master.menu.anonymous.records-list= Listar registro  de compañías
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
@@ -62,6 +63,7 @@ master.menu.authenticated.request2-list= Lista de solicitudes
 master.menu.authenticated.offer-list= Listar ofertas
 master.menu.authenticated.investorRecords-list= Listar inversiones
 master.menu.authenticated.challenge-list = Listar desafíos
+master.menu.authenticated.records-list= Listar de registro de compañías
 
 # master.menu.administrator ###################################################
 

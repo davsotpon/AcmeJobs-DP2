@@ -21,7 +21,8 @@ public class Records extends DomainEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
-	private String				company;
+	@Transient
+	public String				company;
 
 	@NotBlank
 	private String				sector;
@@ -42,8 +43,7 @@ public class Records extends DomainEntity {
 	@NotBlank
 	private String				email;
 
-	@Transient
-	private Boolean				incorporated;
+	public Boolean				incorporated;
 
 	@Range(min = 0, max = 5)
 	private Double				stars;
@@ -51,8 +51,8 @@ public class Records extends DomainEntity {
 
 	@Transient
 	public String getIncor() {
-		StringBuilder res;
-		res = new StringBuilder();
+
+		StringBuilder res = new StringBuilder();
 		res.append(this.company);
 
 		if (this.incorporated == true) {
@@ -61,6 +61,7 @@ public class Records extends DomainEntity {
 		} else {
 			res.append("LLC");
 		}
+
 		return res.toString();
 
 	}

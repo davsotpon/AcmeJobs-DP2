@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>740</x>
+      <x>870</x>
       <y>240</y>
       <w>240</w>
       <h>60</h>
@@ -18,7 +18,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
+      <x>900</x>
       <y>290</y>
       <w>100</w>
       <h>110</h>
@@ -29,7 +29,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
+      <x>370</x>
       <y>140</y>
       <w>220</w>
       <h>120</h>
@@ -49,7 +49,7 @@ bg=orange
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>240</x>
+      <x>370</x>
       <y>50</y>
       <w>240</w>
       <h>60</h>
@@ -62,7 +62,7 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>340</x>
+      <x>470</x>
       <y>100</y>
       <w>30</w>
       <h>60</h>
@@ -74,7 +74,7 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>840</x>
+      <x>970</x>
       <y>290</y>
       <w>100</w>
       <h>110</h>
@@ -85,7 +85,7 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1090</x>
+      <x>1220</x>
       <y>250</y>
       <w>100</w>
       <h>60</h>
@@ -100,7 +100,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1090</x>
+      <x>1220</x>
       <y>170</y>
       <w>100</w>
       <h>60</h>
@@ -115,7 +115,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1090</x>
+      <x>1220</x>
       <y>320</y>
       <w>100</w>
       <h>60</h>
@@ -130,7 +130,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>970</x>
+      <x>1100</x>
       <y>210</y>
       <w>140</w>
       <h>80</h>
@@ -141,7 +141,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>970</x>
+      <x>1100</x>
       <y>260</y>
       <w>140</w>
       <h>30</h>
@@ -152,7 +152,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>970</x>
+      <x>1100</x>
       <y>260</y>
       <w>140</w>
       <h>90</h>
@@ -163,7 +163,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>240</x>
+      <x>370</x>
       <y>280</y>
       <w>220</w>
       <h>70</h>
@@ -179,7 +179,7 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>630</x>
+      <x>760</x>
       <y>380</y>
       <w>200</w>
       <h>90</h>
@@ -194,7 +194,7 @@ Provider
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>860</x>
+      <x>990</x>
       <y>380</y>
       <w>210</w>
       <h>90</h>
@@ -209,7 +209,7 @@ Consumer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
+      <x>130</x>
       <y>140</y>
       <w>220</w>
       <h>80</h>
@@ -226,7 +226,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
+      <x>130</x>
       <y>240</y>
       <w>220</w>
       <h>130</h>
@@ -246,8 +246,8 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>390</y>
+      <x>160</x>
+      <y>80</y>
       <w>220</w>
       <h>90</h>
     </coordinates>
@@ -263,7 +263,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
+      <x>810</x>
       <y>0</y>
       <w>340</w>
       <h>130</h>
@@ -285,7 +285,7 @@ UserAccount
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
+      <x>980</x>
       <y>120</y>
       <w>70</w>
       <h>140</h>
@@ -299,7 +299,7 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
+      <x>210</x>
       <y>490</y>
       <w>370</w>
       <h>110</h>
@@ -315,7 +315,7 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
+      <x>590</x>
       <y>490</y>
       <w>360</w>
       <h>120</h>
@@ -333,7 +333,7 @@ FernandezBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>820</x>
+      <x>950</x>
       <y>490</y>
       <w>370</w>
       <h>120</h>
@@ -350,7 +350,7 @@ GuerreroBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
+      <x>590</x>
       <y>620</y>
       <w>360</w>
       <h>120</h>
@@ -367,7 +367,7 @@ HuBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>820</x>
+      <x>950</x>
       <y>620</y>
       <w>370</w>
       <h>120</h>
@@ -384,7 +384,7 @@ DelgadoBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
+      <x>590</x>
       <y>750</y>
       <w>360</w>
       <h>120</h>
@@ -401,7 +401,7 @@ GarciaBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>820</x>
+      <x>950</x>
       <y>750</y>
       <w>370</w>
       <h>120</h>
@@ -415,11 +415,10 @@ SotoBulletin
 + description: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
-  
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
+      <x>210</x>
       <y>610</y>
       <w>310</w>
       <h>110</h>
@@ -435,8 +434,8 @@ SotoBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>50</x>
-      <y>730</y>
+      <x>0</x>
+      <y>470</y>
       <w>390</w>
       <h>150</h>
     </coordinates>
@@ -451,11 +450,10 @@ SotoBulletin
 + ticker: String {Unique,Pattern,NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
- 
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
+      <x>150</x>
       <y>740</y>
       <w>390</w>
       <h>130</h>
@@ -468,14 +466,13 @@ SotoBulletin
 + deadline: Date {Temporal(TIMESTAMP),FutureOrPresent}
 + text: String {NotBlank}
 + reward: Money {NotBlank}</panel_attributes>
-
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>64</x>
-      <y>584</y>
+      <x>160</x>
+      <y>360</y>
       <w>264</w>
       <h>88</h>
     </coordinates>
@@ -487,10 +484,10 @@ SotoBulletin
 + ratings: double {Range(0,5)}</panel_attributes>
     <additional_attributes/>
   </element>
- <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>80</x>
+      <x>210</x>
       <y>760</y>
       <w>310</w>
       <h>110</h>
@@ -508,6 +505,27 @@ SotoBulletin
 + rewardBronze: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>170</x>
+      <y>20</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>CompanyRecords
+
+--
++ company: String {NotBlank,Transient}
++ sector: String {NotBlank}
++ CEO: String {NotBlank}
++ activities: String {NotBlank}
++web: String {URL}
++phone: Integer {Pattern}
++email: String {Email, NotBlank}
++incorporated: Booelan
++stars: double {Range(0,5)}
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
-
-

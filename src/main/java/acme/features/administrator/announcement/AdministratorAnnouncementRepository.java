@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.authenticated.announcement;
+package acme.features.administrator.announcement;
 
 import java.util.Collection;
 
@@ -21,12 +21,12 @@ import acme.entities.announcements.Announcement;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AuthenticatedAnnouncementRepository extends AbstractRepository {
+public interface AdministratorAnnouncementRepository extends AbstractRepository {
 
 	@Query("select a from Announcement a where a.id = ?1")
 	Announcement findOneById(int id);
 
-	@Query("select a from Announcement a where MONTH(CURRENT_TIMESTAMP)-MONTH(a.moment)<=1 AND YEAR(a.moment)-YEAR(CURRENT_TIMESTAMP)=0 AND DAY(CURRENT_TIMESTAMP)-DAY(a.moment)<=0 ")
+	@Query("select a from Announcement a")
 	Collection<Announcement> findManyAll();
 
 }

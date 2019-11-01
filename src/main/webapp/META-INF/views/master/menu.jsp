@@ -29,6 +29,7 @@
 			<acme:menu-suboption code="master.menu.anonymous.list-shouts" action = "/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout" action ="/anonymous/shout/create"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.announcement-list" action="/anonymous/announcement/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.investorRecords-list" action="/anonymous/investor-records/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.records-list" action="/anonymous/records/list"/>
 			
@@ -53,11 +54,11 @@
 		
 		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
 			<acme:menu-suboption code="master.menu.authenticated.announcement-list" action="/authenticated/announcement/list"/>
-      <acme:menu-suboption code="master.menu.authenticated.request2-list" action="/authenticated/request2/list"/>
+      		<acme:menu-suboption code="master.menu.authenticated.request2-list" action="/authenticated/request2/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.offer-list" action="/authenticated/offer/list"/>
-      <acme:menu-suboption code="master.menu.authenticated.investorRecords-list" action="/authenticated/investor-records/list"/>
-      <acme:menu-suboption code="master.menu.authenticated.challenge-list" action="/authenticated/challenge/list"/>
-	  <acme:menu-suboption code="master.menu.authenticated.records-list" action="/authenticated/records/list"/>
+      		<acme:menu-suboption code="master.menu.authenticated.investorRecords-list" action="/authenticated/investor-records/list"/>
+      		<acme:menu-suboption code="master.menu.authenticated.challenge-list" action="/authenticated/challenge/list"/>
+	  		<acme:menu-suboption code="master.menu.authenticated.records-list" action="/authenticated/records/list"/>
 		
 		</acme:menu-option>
 		

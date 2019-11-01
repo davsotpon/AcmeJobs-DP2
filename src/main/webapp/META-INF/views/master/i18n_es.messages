@@ -52,12 +52,12 @@ master.menu.anonymous.soto-list = Listar SotoBoletín
 master.menu.anonymous.hu-create = Crear HuBoletín
 master.menu.anonymous.hu-list = Listar HuBoletín
 master.menu.anonymous.bulletins = Boletines
+master.menu.anonymous.announcement-list= Listar anuncios
 master.menu.anonymous.investorRecords-list= Listar inversiones
 master.menu.anonymous.records-list= Listar registro  de compañías
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado
-master.menu.authenticated.announcement-list= Listar announcements
 master.menu.authenticated.announcement-list = Listar anuncios
 master.menu.authenticated.request2-list= Lista de solicitudes
 master.menu.authenticated.offer-list= Listar ofertas

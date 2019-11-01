@@ -79,12 +79,11 @@
 	
 	<bean id="announcement03" class="acme.entities.announcements.Announcement">
 		<property name="title" value="Ejemplo de announcement número 3"/>
-		<property name="moment" value="2019/06/10 12:00"/>
+		<property name="moment" value="2019/10/10 12:00"/>
 		<property name="moreInfo"><null/></property>
 		<property name="text" value="Descripción del announcement ejemplo número 3"/>
 	</bean>
 	
-
 	<bean id="offer01" class="acme.entities.offers.Offer">
 		<property name="title" value="Oferta 01"/>
 		<property name="moment" value="2019/06/10 12:00"/>

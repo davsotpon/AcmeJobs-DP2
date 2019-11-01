@@ -1,4 +1,5 @@
-create table `administrator` (
+
+    create table `administrator` (
        `id` integer not null,
         `version` integer not null,
         `user_account_id` integer,
@@ -137,7 +138,7 @@ create table `administrator` (
         `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-   
+
     create table `records` (
        `id` integer not null,
         `version` integer not null,
@@ -151,7 +152,7 @@ create table `administrator` (
         `web` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
+
     create table `request2` (
        `id` integer not null,
         `version` integer not null,
@@ -235,4 +236,3 @@ create table `administrator` (
        add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
-

@@ -1,4 +1,3 @@
-
     create table `administrator` (
        `id` integer not null,
         `version` integer not null,
@@ -140,15 +139,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `request2` (
+   create table `request2` (
        `id` integer not null,
         `version` integer not null,
         `deadline` datetime(6),
-        `iden` varchar(255),
         `moment` datetime(6),
         `reward_amount` double precision,
         `reward_currency` varchar(255),
         `text` varchar(255),
+        `ticker` varchar(255),
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
@@ -220,3 +219,4 @@
        add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
+

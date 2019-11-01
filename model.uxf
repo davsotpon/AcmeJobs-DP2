@@ -432,6 +432,7 @@ SotoBulletin
 + text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -451,26 +452,25 @@ SotoBulletin
 + ticker: String {Unique,Pattern,NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
- 
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>20</x>
-      <y>740</y>
+      <x>50</x>
+      <y>900</y>
       <w>390</w>
       <h>130</h>
     </coordinates>
     <panel_attributes>Request2
 --
 + title: String {NotBlank}
-+ iden: String {NotBlank}
++ ticker: String {Unique,Patter,NotBlank}
 + moment: Date {Temporal(TIMESTAMP),Past}
 + deadline: Date {Temporal(TIMESTAMP),FutureOrPresent}
 + text: String {NotBlank}
-+ reward: Money {NotBlank}</panel_attributes>
-
++ reward: Money {Valid,NotNull}</panel_attributes>
     <additional_attributes/>
   </element>
+  
   <element>
     <id>UMLClass</id>
     <coordinates>
@@ -509,5 +509,6 @@ SotoBulletin
     <additional_attributes/>
   </element>
 </diagram>
+
 
 

@@ -146,7 +146,6 @@
         `activities` varchar(255),
         `company` varchar(255),
         `email` varchar(255),
-        `incorporated` bit,
         `phone` integer,
         `sector` varchar(255),
         `stars` double precision,

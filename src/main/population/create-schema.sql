@@ -137,7 +137,7 @@ create table `administrator` (
         `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
-    
+   
     create table `records` (
        `id` integer not null,
         `version` integer not null,
@@ -145,7 +145,6 @@ create table `administrator` (
         `activities` varchar(255),
         `company` varchar(255),
         `email` varchar(255),
-        `incorporated` bit,
         `phone` integer,
         `sector` varchar(255),
         `stars` double precision,
@@ -236,3 +235,4 @@ create table `administrator` (
        add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
+

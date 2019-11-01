@@ -54,6 +54,7 @@ master.menu.anonymous.hu-list = List HuBulletin
 master.menu.anonymous.soto-create = Create SotoBulletin
 master.menu.anonymous.soto-list = List SotoBulletin
 master.menu.anonymous.investorRecords-list= List investor records
+master.menu.anonymous.records-list= List company records
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Authenticated
@@ -62,6 +63,7 @@ master.menu.authenticated.request2-list= List requests
 master.menu.authenticated.offer-list= List offers
 master.menu.authenticated.investorRecords-list= List investor records
 master.menu.authenticated.challenge-list= List challenges
+master.menu.authenticated.records-list= List company records
 
 # master.menu.administrator ###################################################
 

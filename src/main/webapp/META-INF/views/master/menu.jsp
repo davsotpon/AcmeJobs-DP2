@@ -30,6 +30,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout" action ="/anonymous/shout/create"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.investorRecords-list" action="/anonymous/investor-records/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.records-list" action="/anonymous/records/list"/>
+			
 			<acme:menu-option code="master.menu.anonymous.bulletins" access="isAnonymous()">
 				<acme:menu-suboption code="master.menu.anonymous.fernandez-create" action="/anonymous/fernandez-bulletin/create"/>
 				<acme:menu-suboption code="master.menu.anonymous.fernandez-list" action="/anonymous/fernandez-bulletin/list"/>
@@ -55,6 +57,7 @@
 			<acme:menu-suboption code="master.menu.authenticated.offer-list" action="/authenticated/offer/list"/>
       <acme:menu-suboption code="master.menu.authenticated.investorRecords-list" action="/authenticated/investor-records/list"/>
       <acme:menu-suboption code="master.menu.authenticated.challenge-list" action="/authenticated/challenge/list"/>
+	  <acme:menu-suboption code="master.menu.authenticated.records-list" action="/authenticated/records/list"/>
 		
 		</acme:menu-option>
 		

@@ -8,24 +8,24 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-authenticated.records.list.label.company= Compañía:
-authenticated.records.list.label.sector= Sector:
-authenticated.records.list.label.CEO= CEO:
-authenticated.records.list.label.activities= Actividades:
-authenticated.records.list.label.web= Web:
-authenticated.records.list.label.phone= Número:
-authenticated.records.list.label.email= Email:
-authenticated.records.list.label.incorporated= Incorporada:
-authenticated.records.list.label.stars= Puntuación:
+anonymous.records.list.label.company= Compañía:
+anonymous.records.list.label.sector= Sector:
+anonymous.records.list.label.CEO= CEO:
+anonymous.records.list.label.activities= Actividades:
+anonymous.records.list.label.web= Web:
+anonymous.records.list.label.phone= Número:
+anonymous.records.list.label.email= Email:
+anonymous.records.list.label.incorporated= Incorporada:
+anonymous.records.list.label.stars= Puntuación:
 
 
-authenticated.records.form.label.company= Compañía:
-authenticated.records.form.label.sector= Sector:
-authenticated.records.form.label.CEO= CEO:
-authenticated.records.form.label.activities= Actividades:
-authenticated.records.form.label.web= Web:
-authenticated.records.form.label.phone= Número:
-authenticated.records.form.label.email= Email:
-authenticated.records.form.label.stars= Puntuación:
-authenticated.announcement.form.button.return= Volver atrás
-authenticated.records.form.label.incorporated= Incorporada:
+anonymous.records.form.label.company= Compañía:
+anonymous.records.form.label.sector= Sector:
+anonymous.records.form.label.CEO= CEO:
+anonymous.records.form.label.activities= Actividades:
+anonymous.records.form.label.web= Web:
+anonymous.records.form.label.phone= Número:
+anonymous.records.form.label.email= Email:
+anonymous.records.form.label.stars= Puntuación:
+anonymous.records.form.label.incorporated= Incorporada:
+anonymous.records.form.button.return= Volver atrás

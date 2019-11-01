@@ -1,5 +1,5 @@
 /*
- * AnonymousConsumerCreateService.java
+ * AuthenticatedConsumerCreateService.java
  *
  * Copyright (c) 2019 Rafael Corchuelo.
  *
@@ -10,7 +10,7 @@
  * they accept any liabilities with respect to them.
  */
 
-package acme.features.anonymous.records;
+package acme.features.authenticated.records;
 
 import java.util.Collection;
 
@@ -20,16 +20,16 @@ import org.springframework.stereotype.Service;
 import acme.entities.records.Records;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
-import acme.framework.entities.Anonymous;
+import acme.framework.entities.Authenticated;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousRecordsListService implements AbstractListService<Anonymous, Records> {
+public class AuthenticatedRecordsListService implements AbstractListService<Authenticated, Records> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private AnonymousRecordsRepository repository;
+	private AuthenticatedRecordsRepository repository;
 
 
 	@Override

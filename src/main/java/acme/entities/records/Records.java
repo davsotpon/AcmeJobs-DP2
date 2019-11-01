@@ -4,6 +4,7 @@ package acme.entities.records;
 import javax.persistence.Entity;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
@@ -34,6 +35,7 @@ public class Records extends DomainEntity {
 	@URL
 	private String				web;
 
+	@Pattern(regexp = "^[+]{0,1}[1-9]{0,2}[\\s]{0,1}[(]{0,1}[1-9]{0,4}[)]{0,1}[\\s]{0,1}[0-9]{5,9}")
 	private Integer				phone;
 
 	@Email

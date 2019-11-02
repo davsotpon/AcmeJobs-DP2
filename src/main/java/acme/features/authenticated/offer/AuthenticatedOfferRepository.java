@@ -26,7 +26,8 @@ public interface AuthenticatedOfferRepository extends AbstractRepository {
 	@Query("select a from Offer a where a.id = ?1")
 	Offer findOneById(int id);
 
-	@Query("select a from Offer a")
+	@Query("select a from Offer a where MONTH(CURRENT_TIMESTAMP)-MONTH(a.deadline)>=0 AND YEAR(a.deadline)-YEAR(CURRENT_TIMESTAMP)>=0 AND DAY(a.deadline)-DAY(CURRENT_TIMESTAMP)>=0 AND\"\r\n"
+		+ "		+ \" DATEPART(HOUR,CURRENT_TIMESTAMP)-DATEPART(HOUR,a.deadline)>=0 AND DATEPART(MINUTE,CURRENT_TIMESTAMP)-DATEPART(MINUTE,a.deadline)>=0")
 	Collection<Offer> findManyAll();
 
 }

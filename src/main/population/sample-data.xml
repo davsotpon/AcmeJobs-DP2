@@ -148,7 +148,17 @@
 		<property name="rewardBronze" value="reward bronze"/>
 	</bean>
 	
-	
+	<bean id="challenge02" class="acme.entities.challenge.Challenge">
+		<property name="title" value="Ejemplo de challenge número 2"/>
+		<property name="deadline" value="2019/11/03 12:00"/>
+		<property name="description" value="Descripción segundo challenge"/>
+		<property name="goalGold" value="goal gold"/>
+		<property name="goalSilver" value="goal silver"/>
+		<property name="goalBronze" value="goal bronze"/>
+		<property name="rewardGold" value="reward gold"/>
+		<property name="rewardSilver" value="reward silver"/>
+		<property name="rewardBronze" value="reward bronze"/>
+	</bean>
 	
 	
 	<bean id="records01" class="acme.entities.records.Records">

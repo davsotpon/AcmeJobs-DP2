@@ -1,5 +1,5 @@
 authenticated.request2.form.label.title= Title:
-authenticated.request2.form.label.iden= Id:
+authenticated.request2.form.label.ticker= Id:
 authenticated.request2.form.label.moment= Moment:
 authenticated.request2.form.label.deadline= Deadline:
 authenticated.request2.form.label.text= Text:

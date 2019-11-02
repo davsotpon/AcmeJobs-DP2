@@ -7,7 +7,7 @@
 
 <acme:form readonly="true">
 	<acme:form-textbox code="authenticated.request2.form.label.title" path="title"/>
-	<acme:form-textbox code="authenticated.request2.form.label.iden" path="iden"/> 
+	<acme:form-textbox code="authenticated.request2.form.label.ticker" path="ticker"/> 
 	<acme:form-moment code="authenticated.request2.form.label.moment" path="moment"/>
 	<acme:form-moment code="authenticated.request2.form.label.deadline" path = "deadline"/>
 	<acme:form-textarea code="authenticated.request2.form.label.text" path="text"/>

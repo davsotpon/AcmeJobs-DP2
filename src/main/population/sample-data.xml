@@ -153,7 +153,7 @@
 	
 	
 	<bean id="records01" class="acme.entities.records.Records">
-		<property name="company" value="Chao S.L."/>
+		<property name="company" value="Chao"/>
 		<property name="sector" value="Inversiones"/>
 		<property name="CEO" value="Horacio Hu"/>
 		<property name="activities" value="Preparación de Brokers"/>

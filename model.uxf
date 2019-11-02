@@ -508,10 +508,10 @@ SotoBulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>170</x>
-      <y>20</y>
-      <w>140</w>
-      <h>70</h>
+      <x>590</x>
+      <y>140</y>
+      <w>280</w>
+      <h>340</h>
     </coordinates>
     <panel_attributes>CompanyRecords
 

@@ -40,7 +40,7 @@ public class Records extends DomainEntity {
 
 	//@Pattern(regexp = "^[+]{0,1}[1-9]{0,2}[\\s]{0,1}[(]{0,1}[1-9]{0,4}[)]{0,1}[\\s]{0,1}[0-9]{5,9}")
 
-	// HASTA EL NAVO DE TO ESTE TAMBIEN DA FALLO Y ES EL DE MIGUEL@Pattern(regexp = "^([+]{1}[1-9][0-9]{0,2})?[(]{1}[0-9]{1,4}[)]{1}[0-9]{6,10}$")
+	// HASTA EL NAVO DE TO ESTE TAMBIEN DA FALJJLO Y ES EL DE MIGUEL@Pattern(regexp = "^([+]{1}[1-9][0-9]{0,2})?[(]{1}[0-9]{1,4}[)]{1}[0-9]{6,10}$")
 	private Integer				phone;
 
 	@Email

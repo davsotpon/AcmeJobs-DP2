@@ -158,7 +158,7 @@
 		<property name="CEO" value="Horacio Hu"/>
 		<property name="activities" value="Preparación de Brokers"/>
 		<property name="web" value="http://www.jola.com"/>
-	    <property name="phone" value="9343433"/>
+	    <property name="phone" value="+34 673 849 979"/>
 	    <property name="email" value="chaohuchu@gmail.com"/>
 	    <property name="incorporated" value="true"/>
 	    <property name="stars" value="4"/>

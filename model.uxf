@@ -461,7 +461,7 @@ SotoBulletin
     <panel_attributes>Request2
 --
 + title: String {NotBlank}
-+ ticker: String {Unique,Patter,NotBlank}
++ ticker: String {Unique,Pattern,NotBlank}
 + moment: Date {Temporal(TIMESTAMP),Past}
 + deadline: Date {Temporal(TIMESTAMP),FutureOrPresent}
 + text: String {NotBlank}
@@ -472,9 +472,9 @@ SotoBulletin
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>1200</y>
-      <w>264</w>
-      <h>88</h>
+      <y>1260</y>
+      <w>314</w>
+      <h>108</h>
     </coordinates>
     <panel_attributes>InvestorRecords
 --
@@ -489,13 +489,13 @@ SotoBulletin
     <coordinates>
       <x>50</x>
       <y>1070</y>
-      <w>330</w>
-      <h>110</h>
+      <w>390</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>Challenge
 --
 + title: String {NotBlank}
-+ deadline: Date {Temporal(TIMESTAMP),Future	}
++ deadline: Date {Temporal(TIMESTAMP),FutureOrPresent}
 + description: String {NotBlank}
 + goalGold: String {NotBlank}
 + goalSilver: String {NotBlank}
@@ -503,6 +503,27 @@ SotoBulletin
 + rewardGold: String {NotBlank}
 + rewardSilver: String {NotBlank}
 + rewardBronze: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>490</x>
+      <y>1160</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>CompanyRecords
+--
++ Company: String {NotBlank}
++ Sector: String {NotBlank}
++ CEO: String {NotBlank}
++ Activities: String {NotBlank}
++ Web: String {NotBlank}
++ Phone: String {Pattern}
++ Email: String {NotBlank,Email}
++ Incorporated: Boolean {Transient}
++ Stars: Double {Range}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

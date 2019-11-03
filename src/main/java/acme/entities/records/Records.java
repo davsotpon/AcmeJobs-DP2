@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Pattern;
 
 import org.hibernate.validator.constraints.Range;
 import org.hibernate.validator.constraints.URL;
@@ -35,8 +36,8 @@ public class Records extends DomainEntity {
 	@URL
 	private String				web;
 
-	//@Pattern(regexp = "^[+]{0,1}[1-9]{0,2}[\\s]{0,1}[(]{0,1}[1-9]{0,4}[)]{0,1}[\\s]{0,1}[0-9]{5,9}")
-	private Integer				phone;
+	@Pattern(regexp = "^([+][\\d]{0,3})?[ ]?([(][\\d]{0,4}[)])?[ ]?([\\d]{6,10}|[\\d]{3} [\\d]{2} [\\d]{2} [\\d]{2}|[\\d]{3} [\\d]{3} [\\d]{3})$")
+	private String				phone;
 
 	@Email
 	@NotBlank

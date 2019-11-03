@@ -138,7 +138,7 @@
  
 	<bean id="challenge01" class="acme.entities.challenge.Challenge">
 		<property name="title" value="Ejemplo de challenge número 1"/>
-		<property name="deadline" value="2020/11/10 12:00"/>
+		<property name="deadline" value="2019/11/10 12:00"/>
 		<property name="description" value="Descripción primer challenge"/>
 		<property name="goalGold" value="goal gold"/>
 		<property name="goalSilver" value="goal silver"/>
@@ -150,7 +150,7 @@
 	
 	<bean id="challenge02" class="acme.entities.challenge.Challenge">
 		<property name="title" value="Ejemplo de challenge número 2"/>
-		<property name="deadline" value="2019/11/03 13:00"/>
+		<property name="deadline" value="2019/11/03 19:00"/>
 		<property name="description" value="Descripción segundo challenge"/>
 		<property name="goalGold" value="goal gold"/>
 		<property name="goalSilver" value="goal silver"/>
@@ -167,7 +167,7 @@
 		<property name="CEO" value="Horacio Hu"/>
 		<property name="activities" value="Preparación de Brokers"/>
 		<property name="web" value="http://www.jola.com"/>
-	    <property name="phone" value="9343433"/>
+	    <property name="phone" value="+34 673 849 979"/>
 	    <property name="email" value="chaohuchu@gmail.com"/>
 	    <property name="incorporated" value="true"/>
 	    <property name="stars" value="4"/>

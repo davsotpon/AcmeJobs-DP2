@@ -26,8 +26,7 @@ public interface AuthenticatedChallengeRepository extends AbstractRepository {
 	@Query("select a from Challenge a where a.id = ?1")
 	Challenge findOneById(int id);
 
-	@Query("select a from Challenge a where MONTH(CURRENT_TIMESTAMP)-MONTH(a.deadline)>=0 AND YEAR(a.deadline)-YEAR(CURRENT_TIMESTAMP)>=0 AND DAY(a.deadline)-DAY(CURRENT_TIMESTAMP)>=0 AND"
-		+ " DATEPART(HOUR,CURRENT_TIMESTAMP)-DATEPART(HOUR,a.deadline)>=0 AND DATEPART(MINUTE,CURRENT_TIMESTAMP)-DATEPART(MINUTE,a.deadline)>=0")
+	@Query("select a from Challenge a where a.deadline>CURRENT_TIMESTAMP")
 	Collection<Challenge> findManyAll();
 
 }

@@ -149,6 +149,19 @@
 		<property name="rewardBronze" value="reward bronze"/>
 	</bean>
 	
+	<bean id="records02" class="acme.entities.records.Records">
+		<property name="company" value="Lenovo"/>
+		<property name="sector" value="Inversiones"/>
+		<property name="CEO" value="Manuel Popov"/>
+		<property name="activities" value="Preparación de Brokers"/>
+		<property name="web" value="http://www.jola.com"/>
+	    <property name="phone" value="+34 673 849 979"/>
+	    <property name="email" value="lenovo@gmail.com"/>
+	    <property name="incorporated" value="true"/>
+	    <property name="stars" value="3.4"/>
+	
+	</bean>
+	
 	
 	
 	
@@ -160,7 +173,7 @@
 		<property name="web" value="http://www.jola.com"/>
 	    <property name="phone" value="+34 673 849 979"/>
 	    <property name="email" value="chaohuchu@gmail.com"/>
-	    <property name="incorporated" value="true"/>
+	    <property name="incorporated" value="false"/>
 	    <property name="stars" value="4"/>
 	
 	</bean>

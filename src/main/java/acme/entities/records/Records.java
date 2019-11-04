@@ -2,7 +2,6 @@
 package acme.entities.records;
 
 import javax.persistence.Entity;
-import javax.persistence.Transient;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
@@ -24,7 +23,7 @@ public class Records extends DomainEntity {
 
 	@NotBlank
 	@NotNull
-	@Transient
+
 	public String				company;
 
 	@NotBlank
@@ -55,31 +54,18 @@ public class Records extends DomainEntity {
 	private Double				stars;
 
 
-	//	public void getCompanyIncorporated() {
-	//
-	//		if (this.incorporated == true) {
-	//
-	//			this.company.concat(" .Inc");
-	//
-	//		} else {
-	//
-	//			this.company.concat(" .LLC");
-	//
-	//		}
-	//
-	//	}
-	public String getCompanyIncorporated2() {
+	public String getCompanyIncorporated() {
 
 		StringBuilder res = new StringBuilder();
 		res.append(this.company);
 
 		if (this.incorporated == true) {
 
-			res.append(" .Inc");
+			res.append(", Inc.");
 
 		} else {
 
-			res.append(" .LLC");
+			res.append(", LLC");
 
 		}
 		return res.toString();

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 
 <!--
 - sample-data.xml
@@ -148,6 +148,7 @@
 		<property name="rewardBronze" value="reward bronze"/>
 	</bean>
 	
+
 	<bean id="challenge02" class="acme.entities.challenge.Challenge">
 		<property name="title" value="Ejemplo de challenge número 2"/>
 		<property name="deadline" value="2019/11/05 19:19"/>
@@ -159,17 +160,33 @@
 		<property name="rewardSilver" value="reward silver"/>
 		<property name="rewardBronze" value="reward bronze"/>
 	</bean>
+
+	<bean id="records02" class="acme.entities.records.Records">
+		<property name="company" value="Lenovo"/>
+		<property name="sector" value="Inversiones"/>
+		<property name="CEO" value="Manuel Popov"/>
+		<property name="activities" value="Preparación de Brokers"/>
+		<property name="web" value="http://www.jola.com"/>
+	    <property name="phone" value="+34 673 849 979"/>
+	    <property name="email" value="lenovo@gmail.com"/>
+	    <property name="incorporated" value="true"/>
+	    <property name="stars" value="3.4"/>
+	
+	</bean>
+	
+	
+
 	
 	
 	<bean id="records01" class="acme.entities.records.Records">
-		<property name="company" value="Chao S.L."/>
+		<property name="company" value="Chao"/>
 		<property name="sector" value="Inversiones"/>
 		<property name="CEO" value="Horacio Hu"/>
 		<property name="activities" value="Preparación de Brokers"/>
 		<property name="web" value="http://www.jola.com"/>
 	    <property name="phone" value="+34 673 849 979"/>
 	    <property name="email" value="chaohuchu@gmail.com"/>
-	    <property name="incorporated" value="true"/>
+	    <property name="incorporated" value="false"/>
 	    <property name="stars" value="4"/>
 	
 	</bean>

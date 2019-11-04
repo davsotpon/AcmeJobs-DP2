@@ -1,4 +1,3 @@
-
     create table `administrator` (
        `id` integer not null,
         `version` integer not null,
@@ -141,17 +140,19 @@
 
     create table `records` (
        `id` integer not null,
-        `version` integer not null,
-        `ceo` varchar(255),
-        `activities` varchar(255),
-        `company` varchar(255),
-        `email` varchar(255),
-        `phone` varchar(255),
-        `sector` varchar(255),
-        `stars` double precision,
-        `web` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
+       `version` integer not null,
+       `ceo` varchar(255),
+       `activities` varchar(255),
+       `company` varchar(255),
+       `email` varchar(255),
+       `incorporated` bit,
+
+       `phone` varchar(255),
+       `sector` varchar(255),
+       `stars` double precision,
+       `web` varchar(255),
+       primary key (`id`)
+   ) engine=InnoDB;
 
     create table `request2` (
        `id` integer not null,

@@ -93,7 +93,7 @@
 	<bean id="offer01" class="acme.entities.offers.Offer">
 		<property name="title" value="Oferta 01"/>
 		<property name="moment" value="2019/06/10 12:00"/>
-		<property name="deadline" value="2020/07/11 10:30"/>
+		<property name="deadline" value="2019/11/05 13:01"/>
 		<property name="text" value="Oferta de ejemplo"/>
 		<property name="minMoney" value="EUR 700.0"/>
 		<property name="maxMoney" value="EUR 2000.0"/>
@@ -106,7 +106,7 @@
 		<property name="title" value="Ejemplo de request número 1"/>
 		<property name="ticker" value="RAAAA-00000"/>
 		<property name="moment" value="2019/06/10 12:00"/>
-		<property name="deadline" value="2020/06/10 12:00"/>
+		<property name="deadline" value="2019/11/05 13:01"/>
 		<property name="text" value="Descripción del request ejemplo número 1"/>
 		<property name="reward" value="900.0 €"/>
 	</bean>
@@ -144,7 +144,7 @@
  
 	<bean id="challenge01" class="acme.entities.challenge.Challenge">
 		<property name="title" value="Ejemplo de challenge número 1"/>
-		<property name="deadline" value="2019/11/10 12:00"/>
+		<property name="deadline" value="2019/11/05 13:01"/>
 		<property name="description" value="Descripción primer challenge"/>
 		<property name="goalGold" value="goal gold"/>
 		<property name="goalSilver" value="goal silver"/>

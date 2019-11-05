@@ -1,5 +1,5 @@
 administrator.spam.form.label.spamWords= Spam Words:
-administrator.spam.form.label.umbral= Umbral:
+administrator.spam.form.label.umbral= Threshold:
 
 administrator.spam.form.button.return= Return
 
@@ -7,4 +7,4 @@ administrator.spam.form.button.return= Return
 
 
 administrator.spam.list.label.spamWords= Spam Words:
-administrator.spam.list.label.umbral= Umbral:
+administrator.spam.list.label.umbral= Threshold:

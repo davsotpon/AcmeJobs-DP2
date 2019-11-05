@@ -34,7 +34,7 @@ public class AuthenticatedRecordsShowService implements AbstractShowService<Auth
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "company", "sector", "CEO", "activities", "web", "phone", "email", "stars", "incorporated");
+		request.unbind(entity, model, "companyIncorporated", "sector", "CEO", "activities", "web", "phone", "email", "stars", "incorporated");
 
 	}
 

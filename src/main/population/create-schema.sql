@@ -186,6 +186,14 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `spam` (
+       `id` integer not null,
+        `version` integer not null,
+        `spam_words` varchar(255),
+        `umbral` double precision,
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `user_account` (
        `id` integer not null,
         `version` integer not null,

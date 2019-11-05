@@ -195,6 +195,14 @@
 	    <property name="incorporated" value="false"/>
 	    <property name="stars" value="4"/>
 	
+	</bean >
+	
+	
+	
+	<bean id="spam01" class="acme.entities.spam.Spam">
+	<property name="umbral" value="1.00"></property>
+	<property name="spamWords" value="jose,chao,antonio"></property>
+	
 	</bean>
 	
 

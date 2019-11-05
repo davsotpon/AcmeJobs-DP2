@@ -5,7 +5,7 @@
 
 
 <acme:form readonly="true">
-	<acme:form-textbox code="authenticated.records.form.label.company" path="company"/> 
+	<acme:form-textbox code="authenticated.records.form.label.company" path="companyIncorporated"/> 
 	<acme:form-textbox code="authenticated.records.form.label.sector" path="sector"/>
 	<acme:form-textbox code="authenticated.records.form.label.CEO" path = "CEO"/>
 	<acme:form-textarea code="authenticated.records.form.label.activities" path="activities"/>

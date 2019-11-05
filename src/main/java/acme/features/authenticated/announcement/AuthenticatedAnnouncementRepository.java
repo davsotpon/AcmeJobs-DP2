@@ -26,7 +26,7 @@ public interface AuthenticatedAnnouncementRepository extends AbstractRepository 
 	@Query("select a from Announcement a where a.id = ?1")
 	Announcement findOneById(int id);
 
-	@Query("select a from Announcement a where MONTH(CURRENT_TIMESTAMP)-MONTH(a.moment)<=1 AND YEAR(a.moment)-YEAR(CURRENT_TIMESTAMP)=0 AND DAY(CURRENT_TIMESTAMP)-DAY(a.moment)<=0 ")
+	@Query("select a from Announcement a where datediff(current_timestamp,a.moment) < 30")
 	Collection<Announcement> findManyAll();
 
 }

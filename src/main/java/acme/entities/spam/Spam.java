@@ -14,7 +14,8 @@ public class Spam extends DomainEntity {
 
 	private static final long	serialVersionUID	= 1L;
 
-	private String				spamWords;
+	public String				spamWords;
 
-	private Double				umbral;
+	public Double				umbral;
+
 }

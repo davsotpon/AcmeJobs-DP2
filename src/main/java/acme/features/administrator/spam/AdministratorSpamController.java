@@ -19,10 +19,10 @@ public class AdministratorSpamController extends AbstractController<Administrato
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private AdministratorSpamListService	listService;
+	private AdministratorSpamListService listService;
 
-	@Autowired
-	private AdministratorSpamShowService	showService;
+	//	@Autowired
+	//	private AdministratorSpamShowService	showService;
 
 
 	// Constructors -----------------------------------------------------------
@@ -30,7 +30,7 @@ public class AdministratorSpamController extends AbstractController<Administrato
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
-		super.addBasicCommand(BasicCommand.SHOW, this.showService);
+		//		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 	}
 
 }

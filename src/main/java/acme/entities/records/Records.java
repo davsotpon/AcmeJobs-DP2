@@ -22,7 +22,6 @@ public class Records extends DomainEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
-	@NotNull
 	public String				company;
 
 	@NotBlank
@@ -38,7 +37,7 @@ public class Records extends DomainEntity {
 	private String				web;
 
 	@NotBlank
-	@Pattern(regexp = "^([+][\\d]{0,3})?[ ]?([(][\\d]{0,4}[)])?[ ]?([\\d]{6,10}|[\\d]{3} [\\d]{2} [\\d]{2} [\\d]{2}|[\\d]{3} [\\d]{3} [\\d]{3})$")
+	@Pattern(regexp = "([+][^0][\\d]{0,2})?[ ]?([(][\\d]{0,4}[)])?[ ]?([\\d]{6,10})$")
 	private String				phone;
 
 	@Email

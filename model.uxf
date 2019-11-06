@@ -419,7 +419,7 @@ SotoBulletin
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>600</y>
+      <y>620</y>
       <w>310</w>
       <h>110</h>
     </coordinates>
@@ -436,7 +436,7 @@ Announcement
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>860</y>
+      <y>920</y>
       <w>370</w>
       <h>160</h>
     </coordinates>
@@ -456,7 +456,7 @@ Offer
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>710</y>
+      <y>750</y>
       <w>370</w>
       <h>150</h>
     </coordinates>
@@ -475,7 +475,7 @@ Request2
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>1020</y>
+      <y>1100</y>
       <w>374</w>
       <h>108</h>
     </coordinates>
@@ -492,9 +492,9 @@ InvestorRecords
     <id>UMLClass</id>
     <coordinates>
       <x>80</x>
-      <y>1140</y>
+      <y>1470</y>
       <w>390</w>
-      <h>220</h>
+      <h>190</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Challenge
@@ -513,25 +513,24 @@ Challenge
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>490</x>
-      <y>1160</y>
-      <w>270</w>
-      <h>190</h>
+      <x>80</x>
+      <y>1230</y>
+      <w>370</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 CompanyRecords
 --
-+ Company: String {NotBlank}
-+ Sector: String {NotBlank}
-+ CEO: String {NotBlank}
-+ Activities: String {NotBlank}
-+ Web: String {NotBlank}
-+ Phone: String {NotBlank,Pattern}
-+ Email: String {NotBlank,Email}
-+ Incorporated: Boolean {Transient}
-+ Stars: Double {Range(0,5)}</panel_attributes>
++ company: String {NotBlank}
++ sector: String {NotBlank}
++ ceo: String {NotBlank}
++ activities: String {NotBlank}
++ web: String {URL}
++ phone: String {NotBlank,Pattern}
++ email: String {Email,NotBlank}
++ incorporated: Boolean {Transient} 
++ Stars: Double {Range(0,5)}
 + / getCompanyIncorporated: String {Trasient}</panel_attributes>
-
     <additional_attributes/>
   </element>
 </diagram>

@@ -181,7 +181,7 @@
 		<property name="CEO" value="Manuel Popov"/>
 		<property name="activities" value="Preparación de Brokers"/>
 		<property name="web" value="http://www.jola.com"/>
-	    <property name="phone" value="+34 673 849 979"/>
+	    <property name="phone" value="+34 (9999) 673849979"/>
 	    <property name="email" value="lenovo@gmail.com"/>
 	    <property name="incorporated" value="true"/>
 	    <property name="stars" value="3.4"/>
@@ -189,21 +189,33 @@
 	</bean>
 	
 	
-
-	
-	
-	<bean id="records01" class="acme.entities.records.Records">
+	<bean id="records03" class="acme.entities.records.Records">
 		<property name="company" value="Chao"/>
 		<property name="sector" value="Inversiones"/>
 		<property name="CEO" value="Horacio Hu"/>
 		<property name="activities" value="Preparación de Brokers"/>
 		<property name="web" value="http://www.jola.com"/>
-	    <property name="phone" value="+34 673 849 979"/>
+	    <property name="phone" value="+999 673849979"/>
 	    <property name="email" value="chaohuchu@gmail.com"/>
 	    <property name="incorporated" value="false"/>
 	    <property name="stars" value="4.4"/>
 	
 	</bean >
+	
+	<bean id="records04" class="acme.entities.records.Records">
+		<property name="company" value="Chao"/>
+		<property name="sector" value="Inversiones"/>
+		<property name="CEO" value="Horacio Hu"/>
+		<property name="activities" value="Preparación de Brokers"/>
+		<property name="web" value="http://www.jola.com"/>
+	    <property name="phone" value="6738499791"/>
+	    <property name="email" value="chaohuchu@gmail.com"/>
+	    <property name="incorporated" value="false"/>
+	    <property name="stars" value="4.4"/>
+	
+	</bean >
+	
+	
 	
 	
 	

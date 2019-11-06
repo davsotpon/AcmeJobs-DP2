@@ -56,6 +56,7 @@ master.menu.anonymous.soto-list = List SotoBulletin
 master.menu.anonymous.announcement-list= List announcements
 master.menu.anonymous.investorRecords-list= List investor records
 master.menu.anonymous.records-list= List company records
+master.menu.anonymous.topInvestorRecords-list= List top investorRecords
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Authenticated

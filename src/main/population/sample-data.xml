@@ -132,7 +132,7 @@
 		<property name="name" value="Ejemplo de investor records"/>
 		<property name="sector" value="sector de tecnología"/>
 		<property name="investingStatements" value="EUR 100.00"/>
-		<property name="ratings"><null/></property>
+		<property name="ratings" value="5.0"/>
 	</bean>
 	
 	<bean id="investorRecords02" class="acme.entities.investorRecords.InvestorRecords">

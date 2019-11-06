@@ -55,6 +55,7 @@ master.menu.anonymous.bulletins = Boletines
 master.menu.anonymous.announcement-list= Listar anuncios
 master.menu.anonymous.investorRecords-list= Listar inversiones
 master.menu.anonymous.records-list= Listar registro  de compañías
+master.menu.anonymous.topInvestorRecords-list= Top inversiones
 
 # master.menu.authenticated ###################################################
 master.menu.authenticated= Autenticado

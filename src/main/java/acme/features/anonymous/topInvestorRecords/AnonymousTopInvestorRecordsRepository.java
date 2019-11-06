@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.investorRecords;
+package acme.features.anonymous.topInvestorRecords;
 
 import java.util.Collection;
 
@@ -10,12 +10,12 @@ import acme.entities.investorRecords.InvestorRecords;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnonymousInvestorRecordsRepository extends AbstractRepository {
+public interface AnonymousTopInvestorRecordsRepository extends AbstractRepository {
 
 	@Query("select a from InvestorRecords a where a.id = ?1")
 	InvestorRecords findOneById(int id);
 
-	@Query("select a from InvestorRecords a")
+	@Query("select a from InvestorRecords a where a.ratings=5")
 	Collection<InvestorRecords> findManyAll();
 
 }

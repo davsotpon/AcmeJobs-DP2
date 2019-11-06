@@ -423,7 +423,8 @@ SotoBulletin
       <w>310</w>
       <h>110</h>
     </coordinates>
-    <panel_attributes>Announcement
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Announcement
 --
 + title: String {NotBlank}
 + moment: Date {Temporal(TIMESTAMP),Past}
@@ -437,9 +438,10 @@ SotoBulletin
       <x>40</x>
       <y>900</y>
       <w>390</w>
-      <h>150</h>
+      <h>160</h>
     </coordinates>
-    <panel_attributes>Offer
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Offer
 --
 + title: String {NotBlank}
 + moment: Date {Temporal(TIMESTAMP),Past}
@@ -454,11 +456,12 @@ SotoBulletin
     <id>UMLClass</id>
     <coordinates>
       <x>40</x>
-      <y>760</y>
+      <y>730</y>
       <w>390</w>
-      <h>130</h>
+      <h>150</h>
     </coordinates>
-    <panel_attributes>Request2
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Request2
 --
 + title: String {NotBlank}
 + ticker: String {Unique,Pattern,NotBlank}
@@ -476,7 +479,8 @@ SotoBulletin
       <w>314</w>
       <h>108</h>
     </coordinates>
-    <panel_attributes>InvestorRecords
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+InvestorRecords
 --
 + name: String {NotBlank}
 + sector: String {NotBlank}
@@ -492,7 +496,8 @@ SotoBulletin
       <w>390</w>
       <h>170</h>
     </coordinates>
-    <panel_attributes>Challenge
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Challenge
 --
 + title: String {NotBlank}
 + deadline: Date {Temporal(TIMESTAMP),FutureOrPresent}
@@ -509,22 +514,24 @@ SotoBulletin
     <id>UMLClass</id>
     <coordinates>
       <x>490</x>
-      <y>910</y>
-      <w>340</w>
-      <h>220</h>
+      <y>1160</y>
+      <w>270</w>
+      <h>190</h>
     </coordinates>
-    <panel_attributes>CompanyRecords
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+CompanyRecords
 --
 + Company: String {NotBlank}
 + Sector: String {NotBlank}
 + CEO: String {NotBlank}
 + Activities: String {NotBlank}
 + Web: String {NotBlank}
-+ Phone: String {Pattern}
++ Phone: String {NotBlank,Pattern}
 + Email: String {NotBlank,Email}
 + Incorporated: Boolean {Transient}
-+ Stars: Double {Range}
++ Stars: Double {Range(0,5)}</panel_attributes>
 + / getCompanyIncorporated: String {Trasient}</panel_attributes>
+
     <additional_attributes/>
   </element>
 </diagram>

@@ -15,7 +15,7 @@ public interface AnonymousRecordsRepository extends AbstractRepository {
 	@Query("select a from Records a where a.id = ?1")
 	Records findOneById(int id);
 
-	@Query("select a from Records a")
+	@Query("select a from Records a order by a.stars DESC")
 	Collection<Records> findManyAll();
 
 }

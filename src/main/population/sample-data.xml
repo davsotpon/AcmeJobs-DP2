@@ -146,7 +146,7 @@
 		<property name="name" value="Ejemplo 3 de investor records"/>
 		<property name="sector" value="sector de investigación"/>
 		<property name="investingStatements" value="EUR 300.00"/>
-		<property name="ratings"><null/></property>
+		<property name="ratings" value="3.3"/>
 	</bean>
 
  
@@ -198,18 +198,18 @@
 	    <property name="phone" value="+999 673849979"/>
 	    <property name="email" value="chaohuchu@gmail.com"/>
 	    <property name="incorporated" value="false"/>
-	    <property name="stars" value="4.4"/>
+	    <property name="stars" value="2.4"/>
 	
 	</bean >
 	
 	<bean id="records04" class="acme.entities.records.Records">
-		<property name="company" value="Chao"/>
-		<property name="sector" value="Inversiones"/>
-		<property name="CEO" value="Horacio Hu"/>
-		<property name="activities" value="Preparación de Brokers"/>
-		<property name="web" value="http://www.jola.com"/>
+		<property name="company" value="Royal Canin"/>
+		<property name="sector" value="Mascotas"/>
+		<property name="CEO" value="Antonio Manuel Serrano Rodríguez"/>
+		<property name="activities" value="Venta de productos para mascotas"/>
+		<property name="web" value="http://www.royalcanin.com"/>
 	    <property name="phone" value="6738499791"/>
-	    <property name="email" value="chaohuchu@gmail.com"/>
+	    <property name="email" value="royalcanin@gmail.com"/>
 	    <property name="incorporated" value="false"/>
 	    <property name="stars" value="4.4"/>
 	
